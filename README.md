@@ -17,7 +17,7 @@ Developed as part of the **ETE 404: VLSI Technology Sessional** project at the C
 
 ---
 
-## 🛠️ Repository Structure
+##  Repository Structure
 ```text
 SAP1_8bit_Project/
 │
@@ -32,8 +32,15 @@ SAP1_8bit_Project/
 │   └── listing.txt               # Address-by-Address Assembly Listing
 │
 └── screenshots/                  # Circuit and Simulation Snapshots
-    ├── overall_processor.png
-    ├── alu.png
-    ├── control_sequencer.png
+    ├── alu_8bit.png
     ├── barrel_shifter.png
-    └── ring_rotator.png
+    ├── control_sequencer.png
+    ├── decoder.png
+    ├── instruction_register.png
+    ├── loader.png
+    ├── pc_4bit.png
+    ├── ram_16x8.png
+    ├── register_8bit.png
+    ├── ring_counter.png
+    ├── ring_rotator.png
+    └── sap1_final_top.png
