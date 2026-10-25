@@ -17,21 +17,19 @@ Developed as part of the **ETE 404: VLSI Technology Sessional** project at the C
 
 ---
 
-## Repository Structure
+## 🛠️ Repository Structure
 ```text
 SAP1_8bit_Project/
 │
 ├── SAP1_8bit_Final.circ          # Main Logisim Project file
-├── assembler_8bit.py             # Custom Python Assembler
 ├── README.md                     # Project Documentation
 ├── Project_Report.pdf            # Complete LaTeX Project Report
 │
-├── programs/                     # Assembly Source Files (.asm)
-│   ├── program.asm
-│   └── test_cases.asm
-│
-├── generated_memory/             # Assembled Hex Files (.hex)
-│   └── ram_image.hex
+├── Assembler/                    # Assembler Toolchain & Source Files
+│   ├── assembler_8bit.py         # Python Assembler Source Script
+│   ├── program.asm               # Assembly Source Code
+│   ├── ram_image.hex             # Generated Logisim v3.0 Hex Image
+│   └── listing.txt               # Address-by-Address Assembly Listing
 │
 └── screenshots/                  # Circuit and Simulation Snapshots
     ├── overall_processor.png
