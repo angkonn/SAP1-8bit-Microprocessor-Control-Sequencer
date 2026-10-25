@@ -1,0 +1,16 @@
+Address  Byte  Source
+0        1E    LDA DATA
+1        E1    ROTATE LEFT 1d
+2        3C    STA RESULT_LEFT
+3        EA    ROTATE RIGHT 2d
+4        3D    STA RESULT_RIGHT
+5        F0    HLT
+C        00    RESULT_LEFT:  DB 00h
+D        00    RESULT_RIGHT: DB 00h
+E        B4    DATA:         DB 0B4h
+
+Labels:
+START            = 0h
+RESULT_LEFT      = Ch
+RESULT_RIGHT     = Dh
+DATA             = Eh
